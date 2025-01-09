@@ -1,0 +1,12 @@
+-- -- Initialize Verible language server with custom configuration
+-- require("lspconfig").verible.setup({
+--   cmd = { "verible-verilog-ls", "--rules_config_search" },
+-- })
+--
+-- -- Format Verilog files on save
+-- vim.api.nvim_create_autocmd("BufWritePost", {
+--   pattern = "*.sv",
+--   callback = function()
+--     vim.lsp.buf.format({ async = false })
+--   end,
+-- })
